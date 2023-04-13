@@ -31,25 +31,44 @@ const printStacks = () => {
 
 // Next, what do you think this function should do?
 const movePiece = () => {
-  // Your code here
-
+// Your code here
+//remove from old stack to new stack
+//pop() to remove the number from the array and push() pushes the removed number into a new array
 }
 
 // Before you move, should you check if the move it actually allowed? Should 3 be able to be stacked on 2
 const isLegal = () => {
   // Your code here
+  //is something in starting stack
+  if (!stacks[i]==0){
+    return false
+  }
+  else
+  {
+  movePiece()
+  }
+
+  //if stack is empty, move number
+  //or if number is smaller than number already there, move number
+  //if stack is not empty or number is not smaller than do not move=false
+  //if there is a piece in ending stack
+  //is my piece smaller than it?
 
 }
 
 // What is a win in Towers of Hanoi? When should this function run?
 const checkForWin = () => {
-  // Your code here
+  //does stack c have all 4 (in the proper order)
 
 }
 
 // When is this function called? What should it do with its argument?
 const towersOfHanoi = (startStack, endStack) => {
   // Your code here
+  //check if the move is legal 
+  //print illegal if not legal
+  //else move piece
+  // check for win
 
 }
 
